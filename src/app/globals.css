@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,600;9..144,800&display=swap');
+
+:root {
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-display: 'Fraunces', Georgia, serif;
+  --c-bg: #faf8f5;
+  --c-card: #ffffff;
+  --c-text: #2d2a26;
+  --c-text-soft: #7a756e;
+  --c-text-faint: #b5b0a8;
+  --c-border: #eae6e0;
+  --c-accent: #e07a3a;
+  --c-accent-soft: #fdf0e8;
+  --c-yes: #3da06d;
+  --c-yes-soft: #e8f5ee;
+  --c-no: #c95a4b;
+  --c-no-soft: #fceae7;
+  --c-progress: #e07a3a;
+  --c-check: #e07a3a;
+  --radius: 14px;
+  --radius-sm: 10px;
+  --shadow: 0 1px 3px rgba(45,42,38,0.06);
+  --shadow-lg: 0 4px 16px rgba(45,42,38,0.08);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--c-bg);
+  color: var(--c-text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+input, button, select { font-family: inherit; }
+button { cursor: pointer; border: none; background: none; }
